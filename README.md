@@ -1,6 +1,6 @@
 # Software Bug Classifier
 
-This project is a small NLP pipeline that classifies software bug reports by
+This project is a NLP pipeline that classifies software bug reports by
 severity (**Critical**, **Major**, **Minor**) using TF-IDF features and a
 Logistic Regression classifier built with scikit-learn.
 
