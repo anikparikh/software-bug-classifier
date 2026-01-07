@@ -1,0 +1,38 @@
+id,summary,description,label
+1,App crashes on launch,App closes immediately when opened on Android 14,Critical
+2,Crash on file upload,Application crashes when uploading files larger than 500MB,Critical
+3,Crash on payment submit,App throws null pointer and exits after clicking Pay Now,Critical
+4,Login hangs indefinitely,Spinner keeps loading and app becomes unresponsive after login,Critical
+5,Crash on logout,App closes unexpectedly when user logs out from profile screen,Critical
+6,Page loads slowly,Home page takes 10+ seconds to load on 3G network,Major
+7,Slow search results,Search takes over 8 seconds on large customer database,Major
+8,Memory leak in report screen,Memory usage increases by 500MB after generating multiple reports,Major
+9,High CPU usage on idle,CPU stays at 70 percent when app is idle for more than 5 minutes,Major
+10,Slow export to CSV,Exporting data to CSV takes more than 20 seconds for 10k rows,Major
+11,Button misaligned,Submit button is shifted slightly to the right on login page,Minor
+12,Text overlaps on small screens,Header overlaps menu on iPhone SE,Minor
+13,Tooltip cut off,Tooltip text is clipped on small mobile screens,Minor
+14,Low contrast on dark mode,Some labels are unreadable against dark background,Minor
+15,Small font on high DPI,Text appears tiny on 4K monitors,Minor
+16,Scrollbar too thin,Users report the scrollbar is hard to grab with the mouse,Minor
+17,Label truncated in settings,Long option names are cut off at the end of the row,Minor
+18,Search input placeholder typo,Placeholder text says Sarch instead of Search,Minor
+19,Notification icon not centered,Badge on notification icon is slightly above center,Minor
+20,Alignment issue on profile card,Avatar and name are not vertically aligned,Minor
+21,Spacing inconsistent in list,List items have uneven vertical spacing,Minor
+22,Icon slightly blurry on retina,Settings icon looks fuzzy on retina displays,Minor
+23,Profile picture not perfectly round,Avatar shows a tiny flat edge on the bottom,Minor
+24,Loading spinner off-center,Spinner appears 3 pixels too high on the splash screen,Minor
+25,Crash when opening notifications,App crashes when user taps on the notifications tab,Critical
+26,Crash on invalid deep link,Deep link with malformed ID causes app to crash on open,Critical
+27,Slow initial sync,First-time data sync takes several minutes on mid-range devices,Major
+28,High memory usage on dashboard,Dashboard consumes over 1GB RAM after 15 minutes of use,Major
+29,Delayed push notifications,Notifications arrive 5–10 minutes late for some users,Major
+30,Report download takes too long,Downloading PDF report takes over 30 seconds,Major
+31,Minor padding issue on buttons,Buttons have slightly inconsistent padding across screens,Minor
+32,Table header misaligned,Column headers are shifted 1 pixel compared to table cells,Minor
+33,Hover state too subtle,Hover color change on buttons is barely visible,Minor
+34,Minor typo in tooltip,Tooltip says Succes instead of Success,Minor
+35,Spacing around logo uneven,Logo appears closer to the top edge than the bottom,Minor
+36,Checkbox label slightly misaligned,Checkbox label text is 1px higher than the checkbox itself,Minor
+
